@@ -1,0 +1,58 @@
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+input[type="email"] {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+.container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-card {
+    margin: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+span a {
+    color: orange;
+}
+
+.container-register {
+    margin: 25px;
+}
+
+.container-login {
+    margin: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    text-decoration: none;
+}
