@@ -23,8 +23,6 @@ class User
             if (password_verify($password, $stored_password)) {
                 $_SESSION['username'] = $username;
                 header("location: home.php");
-            } else {
-                echo "Invalid password!";
             }
         }
     }
